@@ -1,0 +1,962 @@
+[
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f08"
+    },
+    "title": "Property 1",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 3000,
+    "address": "1 Main Street",
+    "city": "New York",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/259600/pexels-photo-259600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner1@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390147"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390159"
+    },
+    "facilities": {
+      "bathrooms": "2",
+      "parking": "1",
+      "bedrooms": "3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f09"
+    },
+    "title": "Property 2",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 3050,
+    "address": "2 Main Street",
+    "city": "Chicago",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/221540/pexels-photo-221540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner2@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390169"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390171"
+    },
+    "facilities": {
+      "bathrooms": "3",
+      "parking": "2",
+      "bedrooms": "4"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f0a"
+    },
+    "title": "Property 3",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 3100,
+    "address": "3 Main Street",
+    "city": "Los Angeles",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/2287310/pexels-photo-2287310.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner3@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390179"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390182"
+    },
+    "facilities": {
+      "bathrooms": "2",
+      "parking": "2",
+      "bedrooms": "4"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f0b"
+    },
+    "title": "Property 4",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 3150,
+    "address": "4 Main Street",
+    "city": "Houston",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner4@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390189"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390193"
+    },
+    "facilities": {
+      "bathrooms": "1",
+      "parking": "1",
+      "bedrooms": "2"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f0c"
+    },
+    "title": "Property 5",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 3200,
+    "address": "5 Main Street",
+    "city": "Miami",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/2091166/pexels-photo-2091166.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner5@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390202"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390206"
+    },
+    "facilities": {
+      "bathrooms": "4",
+      "parking": "3",
+      "bedrooms": "5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f0d"
+    },
+    "title": "Property 6",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 3250,
+    "address": "6 Main Street",
+    "city": "San Francisco",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner6@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390215"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390219"
+    },
+    "facilities": {
+      "bathrooms": "2",
+      "parking": "1",
+      "bedrooms": "3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f0e"
+    },
+    "title": "Property 7",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 3300,
+    "address": "7 Main Street",
+    "city": "Seattle",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/259587/pexels-photo-259587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner7@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390227"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390231"
+    },
+    "facilities": {
+      "bathrooms": "3",
+      "parking": "2",
+      "bedrooms": "4"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f0f"
+    },
+    "title": "Property 8",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 3350,
+    "address": "8 Main Street",
+    "city": "Boston",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner8@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390244"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390247"
+    },
+    "facilities": {
+      "bathrooms": "2",
+      "parking": "2",
+      "bedrooms": "4"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f10"
+    },
+    "title": "Property 9",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 3400,
+    "address": "9 Main Street",
+    "city": "Dallas",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner9@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390256"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390259"
+    },
+    "facilities": {
+      "bathrooms": "1",
+      "parking": "1",
+      "bedrooms": "2"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f11"
+    },
+    "title": "Property 10",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 3450,
+    "address": "10 Main Street",
+    "city": "Atlanta",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/2119711/pexels-photo-2119711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner10@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390268"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390270"
+    },
+    "facilities": {
+      "bathrooms": "4",
+      "parking": "3",
+      "bedrooms": "5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f12"
+    },
+    "title": "Property 11",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 3500,
+    "address": "11 Main Street",
+    "city": "New York",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/259600/pexels-photo-259600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner11@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390278"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390280"
+    },
+    "facilities": {
+      "bathrooms": "2",
+      "parking": "1",
+      "bedrooms": "3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f13"
+    },
+    "title": "Property 12",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 3550,
+    "address": "12 Main Street",
+    "city": "Chicago",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/221540/pexels-photo-221540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner12@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390288"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390292"
+    },
+    "facilities": {
+      "bathrooms": "3",
+      "parking": "2",
+      "bedrooms": "4"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f14"
+    },
+    "title": "Property 13",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 3600,
+    "address": "13 Main Street",
+    "city": "Los Angeles",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/2287310/pexels-photo-2287310.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner13@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390300"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390303"
+    },
+    "facilities": {
+      "bathrooms": "2",
+      "parking": "2",
+      "bedrooms": "4"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f15"
+    },
+    "title": "Property 14",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 3650,
+    "address": "14 Main Street",
+    "city": "Houston",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner14@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390310"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390313"
+    },
+    "facilities": {
+      "bathrooms": "1",
+      "parking": "1",
+      "bedrooms": "2"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f16"
+    },
+    "title": "Property 15",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 3700,
+    "address": "15 Main Street",
+    "city": "Miami",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/2091166/pexels-photo-2091166.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner15@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390320"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390323"
+    },
+    "facilities": {
+      "bathrooms": "4",
+      "parking": "3",
+      "bedrooms": "5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f17"
+    },
+    "title": "Property 16",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 3750,
+    "address": "16 Main Street",
+    "city": "San Francisco",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner16@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390331"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390334"
+    },
+    "facilities": {
+      "bathrooms": "2",
+      "parking": "1",
+      "bedrooms": "3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f18"
+    },
+    "title": "Property 17",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 3800,
+    "address": "17 Main Street",
+    "city": "Seattle",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/259587/pexels-photo-259587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner17@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390341"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390343"
+    },
+    "facilities": {
+      "bathrooms": "3",
+      "parking": "2",
+      "bedrooms": "4"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f19"
+    },
+    "title": "Property 18",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 3850,
+    "address": "18 Main Street",
+    "city": "Boston",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner18@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390351"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390354"
+    },
+    "facilities": {
+      "bathrooms": "2",
+      "parking": "2",
+      "bedrooms": "4"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f1a"
+    },
+    "title": "Property 19",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 3900,
+    "address": "19 Main Street",
+    "city": "Dallas",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner19@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390360"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390363"
+    },
+    "facilities": {
+      "bathrooms": "1",
+      "parking": "1",
+      "bedrooms": "2"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f1b"
+    },
+    "title": "Property 20",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 3950,
+    "address": "20 Main Street",
+    "city": "Atlanta",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/2119711/pexels-photo-2119711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner20@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390369"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390372"
+    },
+    "facilities": {
+      "bathrooms": "4",
+      "parking": "3",
+      "bedrooms": "5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f1c"
+    },
+    "title": "Property 21",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 4000,
+    "address": "21 Main Street",
+    "city": "New York",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/259600/pexels-photo-259600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner21@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390379"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390382"
+    },
+    "facilities": {
+      "bathrooms": "2",
+      "parking": "1",
+      "bedrooms": "3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f1d"
+    },
+    "title": "Property 22",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 4050,
+    "address": "22 Main Street",
+    "city": "Chicago",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/221540/pexels-photo-221540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner22@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390389"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390392"
+    },
+    "facilities": {
+      "bathrooms": "3",
+      "parking": "2",
+      "bedrooms": "4"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f1e"
+    },
+    "title": "Property 23",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 4100,
+    "address": "23 Main Street",
+    "city": "Los Angeles",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/2287310/pexels-photo-2287310.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner23@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390399"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390402"
+    },
+    "facilities": {
+      "bathrooms": "2",
+      "parking": "2",
+      "bedrooms": "4"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f1f"
+    },
+    "title": "Property 24",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 4150,
+    "address": "24 Main Street",
+    "city": "Houston",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner24@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390410"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390430"
+    },
+    "facilities": {
+      "bathrooms": "1",
+      "parking": "1",
+      "bedrooms": "2"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f20"
+    },
+    "title": "Property 25",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 4200,
+    "address": "25 Main Street",
+    "city": "Miami",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/2091166/pexels-photo-2091166.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner25@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390438"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390441"
+    },
+    "facilities": {
+      "bathrooms": "4",
+      "parking": "3",
+      "bedrooms": "5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f21"
+    },
+    "title": "Property 26",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 4250,
+    "address": "26 Main Street",
+    "city": "San Francisco",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner26@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390448"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390450"
+    },
+    "facilities": {
+      "bathrooms": "2",
+      "parking": "1",
+      "bedrooms": "3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f22"
+    },
+    "title": "Property 27",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 4300,
+    "address": "27 Main Street",
+    "city": "Seattle",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/259587/pexels-photo-259587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner27@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390458"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390461"
+    },
+    "facilities": {
+      "bathrooms": "3",
+      "parking": "2",
+      "bedrooms": "4"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f23"
+    },
+    "title": "Property 28",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 4350,
+    "address": "28 Main Street",
+    "city": "Boston",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner28@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390467"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390470"
+    },
+    "facilities": {
+      "bathrooms": "2",
+      "parking": "2",
+      "bedrooms": "4"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f24"
+    },
+    "title": "Property 29",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 4400,
+    "address": "29 Main Street",
+    "city": "Dallas",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner29@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390476"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390479"
+    },
+    "facilities": {
+      "bathrooms": "1",
+      "parking": "1",
+      "bedrooms": "2"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f25"
+    },
+    "title": "Property 30",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 4450,
+    "address": "30 Main Street",
+    "city": "Atlanta",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/2119711/pexels-photo-2119711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner30@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390485"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390488"
+    },
+    "facilities": {
+      "bathrooms": "4",
+      "parking": "3",
+      "bedrooms": "5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f26"
+    },
+    "title": "Property 31",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 4500,
+    "address": "31 Main Street",
+    "city": "New York",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/259600/pexels-photo-259600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner31@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390494"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390496"
+    },
+    "facilities": {
+      "bathrooms": "2",
+      "parking": "1",
+      "bedrooms": "3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f27"
+    },
+    "title": "Property 32",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 4550,
+    "address": "32 Main Street",
+    "city": "Chicago",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/221540/pexels-photo-221540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner32@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390503"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390506"
+    },
+    "facilities": {
+      "bathrooms": "3",
+      "parking": "2",
+      "bedrooms": "4"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f28"
+    },
+    "title": "Property 33",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 4600,
+    "address": "33 Main Street",
+    "city": "Los Angeles",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/2287310/pexels-photo-2287310.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner33@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390512"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390514"
+    },
+    "facilities": {
+      "bathrooms": "2",
+      "parking": "2",
+      "bedrooms": "4"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f29"
+    },
+    "title": "Property 34",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 4650,
+    "address": "34 Main Street",
+    "city": "Houston",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner34@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390522"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390525"
+    },
+    "facilities": {
+      "bathrooms": "1",
+      "parking": "1",
+      "bedrooms": "2"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f2a"
+    },
+    "title": "Property 35",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 4700,
+    "address": "35 Main Street",
+    "city": "Miami",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/2091166/pexels-photo-2091166.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner35@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390534"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390536"
+    },
+    "facilities": {
+      "bathrooms": "4",
+      "parking": "3",
+      "bedrooms": "5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f2b"
+    },
+    "title": "Property 36",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 4750,
+    "address": "36 Main Street",
+    "city": "San Francisco",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner36@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390543"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390547"
+    },
+    "facilities": {
+      "bathrooms": "2",
+      "parking": "1",
+      "bedrooms": "3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f2c"
+    },
+    "title": "Property 37",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 4800,
+    "address": "37 Main Street",
+    "city": "Seattle",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/259587/pexels-photo-259587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner37@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390900"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390912"
+    },
+    "facilities": {
+      "bathrooms": "3",
+      "parking": "2",
+      "bedrooms": "4"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f2d"
+    },
+    "title": "Property 38",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 4850,
+    "address": "38 Main Street",
+    "city": "Boston",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner38@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390926"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390929"
+    },
+    "facilities": {
+      "bathrooms": "2",
+      "parking": "2",
+      "bedrooms": "4"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f2e"
+    },
+    "title": "Property 39",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 4900,
+    "address": "39 Main Street",
+    "city": "Dallas",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner39@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390935"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390938"
+    },
+    "facilities": {
+      "bathrooms": "1",
+      "parking": "1",
+      "bedrooms": "2"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64392d39dfd90fb29e464f2f"
+    },
+    "title": "Property 40",
+    "description": "This is a stunning property with all the modern amenities and located in a prime location. Perfect for families or individuals looking for comfort and convenience.",
+    "price": 4950,
+    "address": "40 Main Street",
+    "city": "Atlanta",
+    "country": "US",
+    "image": "https://images.pexels.com/photos/2119711/pexels-photo-2119711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "userEmail": "owner40@example.com",
+    "createdAt": {
+      "$date": "2024-12-26T14:53:06.390944"
+    },
+    "updatedAt": {
+      "$date": "2024-12-26T14:53:06.390946"
+    },
+    "facilities": {
+      "bathrooms": "4",
+      "parking": "3",
+      "bedrooms": "5"
+    }
+  }
+]
