@@ -113,10 +113,10 @@ Welcome to the **MERN Full Stack Real Estate Website** repository! This project 
 ## Screenshots
 
 ### Home Page
-![Home Page](https://via.placeholder.com/800x400)
+![Home Page](frontend/public/h2.png)
 
 ### Property Details Page
-![Property Details](https://via.placeholder.com/800x400)
+![Property Details](frontend/public/h1.png)
 
 ---
 
