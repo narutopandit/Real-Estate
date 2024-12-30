@@ -26,8 +26,8 @@ const Value = () => {
                 <span className="orangeText">Our Value</span>
                 <span className="primaryText">Value We Give to You</span>
                 <span className="flexColStart">
-                    <span className="secondaryText">We always ready to help by providijng the best services for you.</span>
-                    <span className="secondaryText">We beleive a good blace to live can make your life better</span>
+                    <span className="secondaryText">We always ready to help by providing the best services for you.</span>
+                    <span className="secondaryText">We believe a good place to live can make your life better</span>
                 </span>
 
                 <Accordion className="accordian"
