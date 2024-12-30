@@ -1,6 +1,8 @@
 import Headers from "./components/Headers/Headers";
 import Heroes from "./components/Hero/Heroes";
 import './App.css';
+import CompLogos from "./components/Company/CompLogos";
+import Residency from "./components/Residencies/Residency";
 function App() {
   return (
     <div className="App">
@@ -9,7 +11,8 @@ function App() {
         <Headers/>
         <Heroes/>
       </div>
-       
+      <CompLogos/>
+      <Residency/>
     </div>
   );
 }
