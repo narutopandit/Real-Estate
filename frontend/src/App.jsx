@@ -4,6 +4,9 @@ import './App.css';
 import CompLogos from "./components/Company/CompLogos";
 import Residency from "./components/Residencies/Residency";
 import Value from "./components/Value/Value";
+import Contact from "./components/Contact/Contact";
+import GettingStarted from "./components/GetStarted/GettingStarted";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="App">
@@ -15,6 +18,9 @@ function App() {
       <CompLogos/>
       <Residency/>
       <Value/>
+      <Contact/>
+      <GettingStarted/>
+      <Footer/>
     </div>
   );
 }

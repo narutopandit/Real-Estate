@@ -17,7 +17,7 @@ const Value = () => {
         <div className="paddings innerWidth flexCenter v-container">
             {/* left  */}
             <div className="v-left">
-                <div className="image-container">
+                <div className="v-image-container">
                     <img className="fit-image" src="./h-img2.jpg" alt="hero-Image" />
                 </div>
             </div>
